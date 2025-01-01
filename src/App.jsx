@@ -95,7 +95,7 @@ function App() {
 	return (
 		<div className="container">
 			{tenzies && <Confetti />}
-			<img src="src/images/logo.png" alt="" width={150} />
+			<img src="/src/images/logo.png" alt="" width={150} />
 			<h1 className="title">TENZIES</h1>
 			<p className="instructions">Tüm zarlar aynı olana kadar atın.</p>
 			<p className="instructions">Atışlar arasında mevcut değerinde dondurmak için o zara tıklayın.</p>
