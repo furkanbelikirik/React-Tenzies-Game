@@ -1,0 +1,16 @@
+.diceIsHeldAnimation {
+	color: white;
+	animation: diceIsHeld 1s ease-in-out infinite;
+}
+
+@keyframes diceIsHeld {
+	0% {
+		background-color: #d52254;
+	}
+	50% {
+		background-color: #5832ff;
+	}
+	100% {
+		background-color: #d52254;
+	}
+}

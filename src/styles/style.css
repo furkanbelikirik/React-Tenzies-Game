@@ -1,0 +1,116 @@
+body {
+	background-color: #0b2434;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #D52254;
+}
+
+.container {
+	background-color: #f5f5f5;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer a.name {
+	color: #5832FF;
+}
+
+footer a.course {
+	color: #D52254;
+}
+
+.title {
+	font-weight: 800;
+	animation: title 2s ease-in-out infinite;
+}
+
+@keyframes title {
+	0% {
+		color: #D52254;
+		scale: 1;
+	}
+	50% {
+		color: #5832FF;
+		scale: 1.2;
+	}
+	100% {
+		color: #D52254;
+		scale: 1;
+	}
+}
+
+.instructions {
+	text-align: center;
+}
+
+.dice-container {
+	display: grid;
+	grid-template: auto auto / repeat(5, 1fr);
+	gap: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.info {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.die-face {
+	height: 50px;
+	width: 50px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.die-num {
+	font-size: 2rem;
+}
+
+.roll-dice {
+	height: 50px;
+	width: 150px;
+	border: none;
+	border-radius: 6px;
+	background-color: #5832FF;
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.roll-dice:hover {
+	background-color: #D52254;
+}
+
+.roll-dice:focus {
+	outline: none;
+}
+
+.roll-dice:active {
+	box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.roll-dice:disabled {
+	opacity: 0.2;
+}
